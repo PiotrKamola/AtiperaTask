@@ -21,9 +21,7 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-	implementation("org.json:json:20240303")
 	implementation("org.springframework.cloud:spring-cloud-starter-openfeign:4.1.3")
-
 }
 
 tasks.withType<Test> {
